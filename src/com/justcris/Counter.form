@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.justcris.Counter">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="14" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="588" height="467"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="2f1e9" class="javax.swing.JLabel" binding="lbl_image" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="1" left="1" bottom="1" right="1"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="14" vsize-policy="2" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="true"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <icon value="com/justcris/icons/cronometro.jpg"/>
+          <text value=""/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="d3471" class="javax.swing.JButton" binding="btn_start">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14237952"/>
+              <text value="Start"/>
+            </properties>
+          </component>
+          <grid id="6becd" class="javax.swing.JLabel" binding="lbl_showtime" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code" size="18" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <vspacer id="f9c2b">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="3dfb2">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="6d62f">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="5a204">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="bbdac">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="43e4f" class="javax.swing.JButton" binding="btn_stop">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-65512"/>
+              <foreground color="-16777216"/>
+              <text value="Stop timer"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="8e6dd" class="javax.swing.JButton" binding="btn_savetime">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16776039"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <text value="Save time "/>
+            </properties>
+          </component>
+          <vspacer id="6a592">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="8c87b">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="c77da" class="javax.swing.JLabel" binding="lbl_savedTime" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cascadia Code" size="18" style="1"/>
+          <iconTextGap value="10"/>
+          <text value="-"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
